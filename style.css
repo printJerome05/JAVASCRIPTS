@@ -1,0 +1,6 @@
+/* the error is an id so # if it is a class it should be.  */
+#error{
+
+    color: red;
+};
+
