@@ -6,6 +6,7 @@
     <link rel="Stylesheet" href="style.css">
     </head>
     <body>
+          <!--human counter-->
         <div>
         <h1>Count : </h1>
         <h2 id="countest">0</h2>
@@ -15,11 +16,57 @@
         <p id="welcome-el">Previous Entry: </p>
         </div>
 
+          <!--Error handling-->
         <div>
             <h1>Error handling</h1>
             <button onclick="purchase()">Purchase to Error</button>
             <p id="error"></p>
         </div>
+        <br>
+
+        <!--calculator-->
+        <div>
+            <span id="number1"></span>
+            <span id="number2"></span>
+            <br>
+            <button onclick="add1()">ADD</button>
+            <button onclick="minus1()">MINUS</button>
+            <button onclick="divide1()">DIVIDE</button>
+            <button onclick="multiply1()">MULTIPLY</button>
+            <br>
+            <span id="sum-el">Sum: </span>
+        </div>
+
+        <!--blackjack-->
+        <div class="blackjackDECK">
+            <h1 id="TEXTBLACKCJACK">Blackjack</h1>
+            <p id="message-el">Want to play?</p>
+            <p id="cards-el">Cards: </p>
+            <p id="balckjacksum">Sum: </p>
+            <button onclick="startGame()">Start</button>
+            <button onclick="newCard()">New Card</button>
+            <p id="Player-el"></p>
+        </div>
+
+        <!--Apple and Orange Shelf-->
+        <div>
+            <p id="Apple"></p>
+            <p id="Orange"></p>
+        </div>
+
+        <!--Chrome Extension-->
+        <div>
+            <h2 style="color:blue" id="test1">CHROME EXTENSION</h2>
+            <input type="text" id="input-el">
+            <br>
+            <button id="input_btn">Save Input</button>
+            
+        </div>
+
+         <!--CLICK then loging the result -->
+         <div id="Box">OPEN THE BOX!</div>
+  
+        
        
     </body>
 </html>
